@@ -82,6 +82,8 @@ Output:
 40 KIELCE SZCZECIN
 ```
 
+Additional tests for the program are located in the 'tests' folder.
+
 
 
 
