@@ -118,8 +118,6 @@ void Board::addAnswers(HashTable* Structure) {
         }
         cout << "\n";
 
-        /*delete[] name1;
-        delete[] name2;*/
     }
 }
 
@@ -254,8 +252,6 @@ void Board::BFS(HashTable* Structure, Node* nodePtr, int startX, int startY) {
         }
     }
     cleanMatrix(startX, startY);
-    /*delete[] queueX;
-    delete[] queueY;*/
 }
 
 void Board::checkNeighbours(int x, int y, Queue* queueX, Queue* queueY) {
@@ -287,15 +283,4 @@ void Board::printMatrix() {
     }
 }
 
-Board::~Board() {
-
-    /*for (int i = 0; i < cols; i++) {
-            delete[] board[i];
-    }
-    delete[] board;
-
-    for (int i = 0; i < cols; i++) {
-            delete[] matrix[i];
-    }
-    delete[] matrix;*/
-}
+Board::~Board() {}

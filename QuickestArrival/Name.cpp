@@ -66,6 +66,4 @@ void Name::removeLetter() {
     }
 }
 
-Name::~Name() {
-    /*delete[] str;*/
-}
+Name::~Name() {}

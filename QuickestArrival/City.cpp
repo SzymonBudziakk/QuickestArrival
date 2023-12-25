@@ -69,6 +69,4 @@ void City::printNameTime() {
     cout << " " << time << " " << distance << "\n";
 }
 
-City::~City() {
-    /*delete[] cityName;*/
-}
+City::~City() {}

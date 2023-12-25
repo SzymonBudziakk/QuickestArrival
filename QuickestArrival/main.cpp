@@ -8,7 +8,6 @@ int main() {
     map->addFlightsToHashTable(Structure);
     map->addAnswers(Structure);
 
-    /*Structure->printAll();*/
 
     return 0;
 }
